@@ -656,7 +656,7 @@ input {
 2. Elements Styles
 =========================================================================*/
 .landing{
-    background: url("../Images/pexels-losterah-9698302.jpg");
+    background:   linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("../Images/pexels-losterah-9698302.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
