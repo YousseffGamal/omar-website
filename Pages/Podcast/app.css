@@ -2,6 +2,7 @@ body{
     background-color: #000000 !important;
     color: white;
 }
+
 .landing{
     background: 
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Dark overlay */
@@ -72,8 +73,30 @@ border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* optional border for better
         margin-top: 50px !important;
     }
     .remFlex{
-        display: flex;
-        flex-direction: column;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .wi{
+        width: 100% !important;
+    }
+    .hh{
+        height: 100% !important;
+    }
+    .rema{
+        position: relative !important;
+        width: 100%;
+    }
+    .ww{
+        width: 15% !important;
+    }
+    .audio-player{
+        width: 10%;
+    }
+    .dddd{
+        height: 100% !important;
+    }
+    .card{
+        margin-top: 50px;
     }
 }
 footer{
@@ -86,4 +109,46 @@ hr {
     border: none; /* Remove default border */
     border-top: 2px solid black; /* Add a black border on the top */
     margin-top: 50px;
+}
+
+
+
+.audio-player {
+   
+    display: flex;
+    align-items: center;
+}
+
+#play-pause {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    background-image: url('/assets/Images/—Pngtree—black\ vector\ play\ button\ icon_4231897.png'); /* Replace with your play icon */
+    background-size: cover;
+    cursor: pointer;
+}
+
+#play-pause.playing {
+    background-image: url('pause-icon.png'); /* Replace with your pause icon */
+}
+
+.progress-container {
+    width: 300px;
+    height: 10px;
+    background-color: #ddd;
+    margin: 0 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.progress {
+    height: 100%;
+    background-color: red;
+    width: 0;
+}
+
+.time {
+    font-size: 14px;
+    color: #000;
 }
