@@ -4,7 +4,9 @@ body{
 }
 .landing{
     background: 
-    url("/assets/Images/3972021475.png");    
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Dark overlay */
+
+    url("/assets/Images/tech-guru-reviewing-in-studio-in-front-of-camera.jpg");    
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
