@@ -7,7 +7,63 @@
     <link rel="stylesheet" href="/assets/css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/vendor/font-awesome.css">
     <link rel="stylesheet" href="./app.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <style>
+              .form-check-input {
+      appearance: none;
+      -webkit-appearance: none;
+      width: 1em;
+      height: 1em;
+      border-radius: 50%;
+      border: 1px solid #9d2526;
+      position: relative;
+      cursor: pointer;
+    }
+
+    .form-check-input:checked {
+      background-color: #9d2526;
+      border-color: red;
+    }
+
+    .form-check-input:checked::before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-color: #9d2526;
+      border-radius: 50%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .form-check-label {
+      margin-left: 0.5em;
+      cursor: pointer;
+    }
+
+    .form-check-input:checked + .form-check-label {
+      color: #9d2526;
+    }
+    /* Default label color */
+.form-check-label {
+  color: gray;
+  font-weight: bold;
+}
+
+/* Checked label color */
+.form-check-input:checked + .form-check-label {
+  color: red;
+}
+
+        </style>
 </head>
 <body>
           <!-- start of landing with navbar  -->
@@ -56,9 +112,11 @@
             <div class="row">
                 <div class="col-md">
                   <div class="removeMargin" style="margin-top: 270px;   ">
-                    <h6  class="text-light" style="font-size: 4rem; text-align: center;">See Our Successful Story With <br> Omar Ahmed   </h6>
+                    <h6  class="text-light" style="font-size: 4rem; text-align: center;">Resourceses Page   </h6>
                     <h3 style="text-align: center;">
-                        POWERFULL, INSIGHTFUL SESSIONS TO PUSH YOUR <br> AND YOUR COMPANY TO 10X  HEIGHTS.
+                      The timeline varies depending on the complexity of the project. Simple projects may take a few <br>
+                      weeks, while more complex ones could extend to several months. Timelines are influenced by <br>
+                      factors like scope, feedback iterations, and client responsiveness.
                     </h3>
                   </div>
                 </div>
@@ -67,9 +125,124 @@
     
         </div>
         <!-- start of -->
-    
+        <section class="mt-2">
+          <div class="container" style="background-color: white;">
+            <div class="row align-items-center p-4">
+              <div class="col-md-6">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search...">
+                  <div class="input-group-append">
+                    <button style="background-color: #ffc631; border-color: #ffc631;" class="btn btn-outline-secondary" type="button">
+                      <i style="color: black;" class="fas fa-search"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" id="checkbox1" name="options" value="option1">
+                  <label class="form-check-label" for="checkbox1">Wholesaling</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" id="checkbox2" name="options" value="option2">
+                  <label class="form-check-label" for="checkbox2">Real estate</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" id="checkbox3" name="options" value="option3">
+                  <label class="form-check-label" for="checkbox3">Mentorship</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
         <!-- end of -->
+<!-- start of cards section -->
+<section class="mt-3">
+<div class="container">
+  <div class="row">
+    <div class="col-md">
+      <div class="image-container">
+        <img src="/assets/Images/snapedit_1717063193956.jpg" alt="Image Description">
+        <div class="bottom-text">Fresh Concept <br> Construction Renovation </div>
+    </div>    
+  </div>
+    <div class="col-md">
+      <div class="image-container">
+      <img src="/assets/Images/snapedit_1717063292036.jpg" alt="">
+      <div class="bottom-text">Fresh Concept <br> Construction Renovation </div>
+    </div>    
 
+
+    </div>
+    <div class="col-md">
+      <div class="image-container">
+      <img src="/assets/Images/snapedit_1717063584620.jpg" alt="">
+      <div class="bottom-text">Fresh Concept <br> Construction Renovation </div>
+    </div>    
+
+
+    </div>    <!-- <img  src="/assets/Images/snapedit_1717063087228.jpg" alt=""> -->
+  </div>
+  <div class="row mt-3">
+    <div class="col-md">
+      <div class="image-container">
+        <img src="/assets/Images/snapedit_1717063701155.jpg" alt="Image Description">
+        <div class="bottom-text">Fresh Concept <br> Construction Renovation </div>
+    </div>    
+  </div>
+    <div class="col-md">
+      <div class="image-container">
+      <img src="/assets/Images/snapedit_1717063854588.jpg" alt="">
+      <div class="bottom-text">Fresh Concept <br> Construction Renovation </div>
+    </div>    
+
+
+    </div>
+    <div class="col-md">
+      <div class="image-container">
+      <img src="/assets/Images/snapedit_1717064001908.jpg" alt="">
+      <div class="bottom-text">Fresh Concept <br> Construction Renovation </div>
+    </div>    
+
+
+    </div>    <!-- <img  src="/assets/Images/snapedit_1717063087228.jpg" alt=""> -->
+  </div>
+  <div class="row mt-3">
+    <div class="col-md">
+      <div class="image-container">
+        <img src="/assets/Images/snapedit_1717064101196.jpg" alt="Image Description">
+        <div class="bottom-text">Fresh Concept <br> Construction Renovation </div>
+    </div>    
+  </div>
+    <div class="col-md">
+      <div class="image-container">
+        <img src="/assets/Images/snapedit_1717064184092.jpg" alt="">
+        <div class="bottom-text">Fresh Concept <br> Construction Renovation </div>
+    </div>    
+
+
+    </div>
+    <div class="col-md">
+      <div class="image-container">
+      <img src="/assets/Images/snapedit_1717064288964.jpg" alt="">
+      <div class="bottom-text">Fresh Concept <br> Construction Renovation </div>
+    </div>    
+
+
+    </div>    <!-- <img  src="/assets/Images/snapedit_1717063087228.jpg" alt=""> -->
+  </div>
+  <div class="row mt-5">
+    <div class="col-md">
+      <div style="display: flex;justify-content: center;">
+        <button style="font-weight: bold;" type="button" class="btn btn-danger">Load More</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!-- end of cards section -->
 
 
      <!-- end of landing with navbar  -->
