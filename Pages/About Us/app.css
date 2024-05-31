@@ -72,3 +72,9 @@ footer{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.timeline{
+    position: relative;
+}
+.time{
+    background: linear-gradient(to bottom, #212429, #242024, #371E21);
+}
