@@ -85,6 +85,11 @@ border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* optional border for better
         width: 100% !important;
      }
  }
+
+ .nav-link:hover{
+    color: #991b1e !important;
+
+}
  footer{
     background-image: url("/assets/Images/Asset-11.jpg");
     background-position: center;

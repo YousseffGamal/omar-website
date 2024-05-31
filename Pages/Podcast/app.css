@@ -152,3 +152,8 @@ hr {
     font-size: 14px;
     color: #000;
 }
+
+.nav-link:hover{
+    color: #991b1e !important;
+
+}

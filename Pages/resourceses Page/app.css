@@ -99,3 +99,7 @@ border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* optional border for better
     font-size: 1.7rem; /* font size */
     font-weight: bold;
 }
+.nav-link:hover{
+    color: #991b1e !important;
+
+}

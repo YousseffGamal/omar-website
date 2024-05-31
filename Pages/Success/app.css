@@ -31,6 +31,10 @@ border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* optional border for better
     font-weight: 700 !important;
     font-size: 17px !important;
 }
+.nav-link:hover{
+    color: #991b1e !important;
+
+}
 .btn-danger{
     background-color: #991b1e !important;
     width: 200px;

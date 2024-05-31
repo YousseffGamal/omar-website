@@ -40,6 +40,10 @@ border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* optional border for better
 .active .nav-link{
     color: #991b1e !important;
 }
+.nav-link:hover{
+    color: #991b1e !important;
+
+}
 .formm{
     background: 
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), /* Dark overlay */

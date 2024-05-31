@@ -17,6 +17,33 @@
     
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <style>
+    
+  
+      .swiper {
+        width: 700px;
+        height: 332px;
+      }
+  .swiper .card{
+    width: 100% !important;
+    height: 100% !important;
+    background: linear-gradient(to bottom, #560E10,  #B01F22);
+
+  }
+      .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 18px;
+        font-size: 22px;
+        font-weight: bold;
+        color: #fff;
+      }
+  
+    
+    </style>
 </head>
 <body>
     <!-- start of landing with navbar  -->
@@ -82,12 +109,33 @@
               </div>
               <div style="display: block;">
                 <span class="p-3">Folow Us</span>
-                <ul style="list-style: none; display: flex; gap: 5px;"> 
-                  <li style="background-color: #1877f7;border-radius: 50px;"><i style="color: white; padding: 10px;" class="fa-brands fa-facebook-f"></i></li>
-                  <li style="background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);border-radius: 50px;"><i style="color: white; padding: 10px;" class="fa-brands fa-instagram"></i></li>
-               
-
-                </ul>
+                <div class="icons">
+                  <div class="social">
+                    <a href="#">
+                      <i class="social-icon fab fa-facebook-f"></i>
+                    </a>
+                  </div>
+                  <div class="social">
+                    <a href="#">
+                      <i class="social-icon fab fa-twitter"></i>  
+                    </a>
+                  </div>
+                  <div class="social">
+                    <a href="#">
+                      <i class="social-icon fab fa-google-plus-g"></i>   
+                    </a>
+                  </div>
+                  <div class="social">
+                    <a href="#">
+                      <i class="social-icon fab fa-instagram"></i> 
+                    </a>
+                  </div>
+                  <div class="social">
+                    <a href="#">
+                      <i class="social-icon fab fa-linkedin-in"></i>   
+                    </a>
+                  </div>
+                </div>
               </div>
              
 
@@ -476,6 +524,81 @@
 </div>
 </section>
 <!-- end  of blog -->
+<!-- start of slider section -->
+<section>
+<div class="container" style="margin-top: 100px;">
+  <div class="row" >
+    <div class="col-md">
+      <h1 style="text-align: center; color: white;font-weight: bold;">
+        What Our Client Say
+
+      </h1>
+    </div>
+  </div>
+<div class="row" style="margin-top: 60px;">
+  <div class="col-md">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><div class="card">
+          <div style="display: flex;justify-content: center; align-items: center; ">
+            <img class="card-img-top mt-5 shadow" src="./assets/Images/profile.jpg" style="width: 120px; border-radius: 50%;" alt="Card image cap">
+
+          </div>
+
+          <div class="card-body">
+            <h6 style="color: white;" class="card-subtitle mb-2 text-center">"Lorem ipsum dolor sit amet <br> consectetur. Amet amet sit amet <br>rhoncus adipiscing ut" <br> Ahmed</h6>
+       
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide"><div class="card">
+        <div style="display: flex;justify-content: center; align-items: center; ">
+          <img class="card-img-top mt-5 shadow" src="./assets/Images/profile.jpg" style="width: 120px; border-radius: 50%;" alt="Card image cap">
+
+        </div>
+
+        <div class="card-body">
+          <h6 style="color: white;" class="card-subtitle mb-2 text-center">"Lorem ipsum dolor sit amet <br> consectetur. Amet amet sit amet <br>rhoncus adipiscing ut" <br> Ahmed</h6>
+     
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide"><div class="card">
+      <div style="display: flex;justify-content: center; align-items: center; ">
+        <img class="card-img-top mt-5 shadow" src="./assets/Images/profile.jpg" style="width: 120px; border-radius: 50%;" alt="Card image cap">
+
+      </div>
+
+      <div class="card-body">
+        <h6 style="color: white;" class="card-subtitle mb-2 text-center">"Lorem ipsum dolor sit amet <br> consectetur. Amet amet sit amet <br>rhoncus adipiscing ut" <br> Ahmed</h6>
+   
+      </div>
+    </div>
+  </div>
+  <div class="swiper-slide"><div class="card">
+    <div style="display: flex;justify-content: center; align-items: center; ">
+      <img class="card-img-top mt-5 shadow" src="./assets/Images/profile.jpg" style="width: 120px; border-radius: 50%;" alt="Card image cap">
+
+    </div>
+
+    <div class="card-body">
+      <h6 style="color: white;" class="card-subtitle mb-2 text-center">"Lorem ipsum dolor sit amet <br> consectetur. Amet amet sit amet <br>rhoncus adipiscing ut" <br> Ahmed</h6>
+ 
+    </div>
+  </div>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</section>
+<!-- end of slider section -->
 <!-- Start of resources -->
 <section class="resources" style="margin-top: 100px;">
   <div class="container-fluid">
@@ -520,7 +643,7 @@
   <div class="container " >
     <div class="row" >
       <div class="col-md" style="margin-top: 150px;">
-    <h3 class="text-light" style="font-weight: bold;" >
+    <h3 class="text-light " style="font-weight: bold;" >
       About is
     </h3>
     <p style="color: white;opacity: 0.7;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsa ducimus harum repellendus consectetur asperiores rem placeat quam quas repellat commodi, dignissimos soluta sed qui laborum, non fuga quidem? Temporibus.</p>
@@ -534,7 +657,7 @@
   
   </div>
       <div  style="margin-left: 60px;margin-top: 150px;" class="col-md mRemove">
-    <h3 class="text-light" style="font-weight: bold;"><a href="">
+    <h3 class="text-light " style="font-weight: bold;"><a href="" class="hov">
       Quick Link
     </a></h3>
     <p style="color: white;opacity: 0.7;">
@@ -554,14 +677,14 @@
     </p>
       </div>
       <div class="col-md" style="margin-top: 150px;">
-    <h3 class="text-light" style="font-weight: bold;"><a href="">Contact Info</a></h3>
+    <h3 class="text-light " style="font-weight: bold;"><a href="" class="hov">Contact Info</a></h3>
     <p class="text-light" style="font-weight: bold;">Address <span  style="color: white;opacity: 0.7;">Orange,USA</span></p>
     <p class="text-light" style="font-weight: bold;">Email: <span  style="color: white;opacity: 0.7;">example@mail.com</span></p>
     <p class="text-light" style="font-weight: bold;">Phone: <span  style="color: white;opacity: 0.7;">+880 123 456 789</span></p>
     <p class="text-light" style="font-weight: bold;">Work Time: <span  style="color: white;opacity: 0.7;">Mon-Fri 08.00 - 16.00</span></p>
       </div>
       <div class="col-md" style="margin-top: 150px;">
-        <h3 class="text-light" style="font-weight: bold;"><a href="">Solutions</a></h3>
+        <h3 class="text-light " style="font-weight: bold;"><a class="hov" href="">Solutions</a></h3>
         <p style="color: white;opacity: 0.7;">
           Home
         </p>
@@ -589,6 +712,14 @@
   </div>
 
 </footer>
+
+
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    effect: "cards",
+    grabCursor: true,
+  });
+</script>
 <!-- end of footer -->
 <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
 <script src="assets/js/vendor/bootstrap.min.js"></script>
@@ -605,6 +736,11 @@
 <script src="assets/js/vendor/tilt.js"></script>
 <script src="assets/js/vendor/green-audio-player.min.js"></script>
 <script src="assets/js/vendor/jquery.nav.js"></script>
-
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    effect: "cards",
+    grabCursor: true,
+  });
+</script>
 </body>
 </html>

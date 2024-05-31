@@ -26,6 +26,10 @@ border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* optional border for better
     margin-right: 15px;
     
 }
+.nav-link:hover{
+    color: #991b1e !important;
+
+}
 .nav-link{
     color: #f3f4f4 !important;
     font-weight: 700 !important;

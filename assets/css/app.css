@@ -680,6 +680,10 @@ border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* optional border for better
     font-weight: 700 !important;
     font-size: 17px !important;
 }
+.nav-link:hover{
+    color: #991b1e !important;
+
+}
 .btn-danger{
     background-color: #991b1e !important;
     width: 200px;
@@ -865,6 +869,9 @@ footer{
      .mRemove{
         margin: 0 !important;
     }
+    .swiper{
+        width: 100% !important;
+    }
 }
 @media only screen and (min-width: 1200px) {
     .box{
@@ -877,3 +884,88 @@ footer{
     }
 
 }
+.card  img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9); /* Adjust the values for your desired shadow effect */
+}
+footer  p a {
+    text-decoration: none;
+}
+footer .hov:hover{
+color: #991b1e !important;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .social{
+    margin: 5px;
+      height: 40px;
+      width: 40px;
+    border-radius: 40px;
+    box-shadow: -5px 5px 15px #333;
+    text-align: center;
+    transition: all 0.3s;
+    overflow: hidden;
+  }
+  
+  .social:hover{
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .social-icon{
+      text-decoration: none;
+      color: #e7e7e7;
+    /* padding: 22px; */
+    /* margin-left: -18px;  */
+      font-size: 17px;
+  }
+  
+  .social-icon:hover{
+    animation: slide 1s ease;
+  }
+  
+  .social>a{
+      /* padding: 20px; */
+      padding-top: 10px;
+  }
+  
+  .social:nth-child(1){
+      background: #3b5999;
+  }
+  
+  .social:nth-child(2){
+      background: #38A1F3;
+  }
+  
+  .social:nth-child(3){
+      background: #db4a39;
+  }
+  
+  .social:nth-child(4){
+      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  }
+  
+  .social:nth-child(5){
+      background: #0077B5;
+  }
+  
+  @keyframes slide{
+    0%{
+      transform: translateX(0);
+    }
+    50%{
+      transform: translateX(20px);
+      opacity: 0;
+    }
+    51%{
+      transform: translateX(-20px);
+      opacity: 0;
+    }
+    100%{
+      transform: translateX(0);
+    }
+  }

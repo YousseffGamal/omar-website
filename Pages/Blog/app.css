@@ -85,3 +85,7 @@ hr {
     border-top: 2px solid black; /* Add a black border on the top */
     margin-top: 50px;
 }
+.nav-link:hover{
+    color: #991b1e !important;
+
+}

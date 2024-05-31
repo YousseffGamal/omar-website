@@ -47,6 +47,16 @@ border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* optional border for better
    .removeMargin{
     margin: 0 !important;
    }
+   .removePadding{
+    padding: 20px !important;
+   }
+   .removeGap{
+    gap: 20px !important;
+   }
+   .removeDisplay{
+    display: flex;
+    flex-direction: column !important;
+   }
     .landing h1{
         margin: 0 !important;
     }
@@ -77,4 +87,36 @@ footer{
 }
 .time{
     background: linear-gradient(to bottom, #212429, #242024, #371E21);
+}
+.hr-lines:before{
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 60px;
+    position: absolute;
+    top: 50%;
+    left: -70px;
+    background: #dcac2e;
+  }
+  .hr-lines{
+    position: relative;
+  }
+  .hr-lines{
+    position: relative;
+    /*  new lines  */
+    max-width: 500px;
+margin-left: 60px;
+
+  }
+  .vl {
+    border-left: 6px solid white;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
+  .nav-link:hover{
+    color: #991b1e !important;
+
 }
