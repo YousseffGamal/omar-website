@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="./app.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/animate.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />  
 
     <!-- Popper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -63,14 +69,14 @@
         <div class="row">
             <div class="col-md">
               <div class="removeMargin" style="margin-top: 270px; margin-left: 350px;">
-                <h1 class="text-light" style="font-size: 5rem;">Omar's Podcast </h1>
+                <h1 class="text-light  wow animate__backInUp  animated" style="font-size: 5rem;">Omar's Podcast </h1>
               </div>
             </div>
-            <div class="col-md">
+            <div class="col-md  wow animate__backInUp  animated" >
                 <img class="MyImg" style="margin-top: 80px;" src="/assets/Images/h-feature2_resize_1x.webp" alt="">
             </div>
         </div>
-        <div class="row wi" style="width: 55%;display: flex; justify-content: center; align-items: center;margin-left: auto; margin-right: auto;">
+        <div class="row wi  wow animate__backInUp  animated" style="width: 55%;display: flex; justify-content: center; align-items: center;margin-left: auto; margin-right: auto; ">
           <div class="col-md p-3 " style="background-color: white; display: flex; margin-top: 50px;">
             <img src="/assets/Images/Screenshot 2024-05-30 171341.png" alt="">
             <div>
@@ -95,8 +101,8 @@
     </div>
  <!-- end of landing with navbar  -->
  <!-- start of about us section -->
- <section style="margin-top: 150px;">
-    <div class="container ">
+ <section style="margin-top: 150px; ">
+    <div class="container  wow animate__backInUp  animated">
         <div class="row">
             <div class="col-md">
               <h1 style="color: #971b1b; ">
@@ -192,7 +198,7 @@ time will have multiple touchpoints for offshoring.
 <!-- start of podcast -->
 <!-- end of podcast -->
 <section style="margin-top: 100px;">
-  <div class="container">
+  <div class="container  wow animate__backInUp  animated">
     <div class="row">
       <div class="col-md"><img style="width: 100%; border-radius: 20px;height: 510px;" class="dddd" src="/assets/Images/male-influencer-having-conversation-with-guest-podcast-show-live-broadcasting-content-social-media-channel-young-adult-interviewing-woman-about-lifestyle-entertainment-online.jpg" alt=""></div>
       <div class="col-md">
@@ -219,7 +225,7 @@ have multiple touchpoints for offshoring.
 </section>
 <!-- start of series -->
 <section style="margin-top: 50px;">
-  <div class="container">
+  <div class="container  wow animate__backInUp  animated">
     <div class="row">
       <div class="col-md">
         <h2>More on this Series</h2>
@@ -273,7 +279,7 @@ have multiple touchpoints for offshoring.
 <!-- end of series -->
 <!-- start of top series -->
 <section style="margin-top: 100px;margin-bottom: 100px;">
-  <div class="container">
+  <div class="container  wow animate__backInUp  animated">
     <div class="row">
       <div class="col-md d-flex remFlex hh" style="background-color: white;height: 300px; border-radius: 10px;">
         <img style="margin: 0;border-radius: 10px;" src="/assets/Images/young-caucasian-musician-listening-rock-music-outdoors-generative-ai.jpg" alt="">
@@ -343,7 +349,7 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat recusandae qu
 <!-- end of top series -->
 <!-- start of footer -->
 <footer  >
-    <div class="container " >
+    <div class="container  wow animate__backInUp  animated" >
       <div class="row" >
         <div class="col-md" style="margin-top: 150px;">
       <h3 class="text-light" style="font-weight: bold;" >
@@ -463,5 +469,11 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat recusandae qu
     audio.addEventListener('loadedmetadata', updateCurrentTime);
 });
   </script>
+    <script src="/assets/js/wow.js"></script>
+    <script src="/assets/js/wow.min.js"></script>
+  
+    <script>
+      new WOW().init();
+    </script>
 </body>
 </html>

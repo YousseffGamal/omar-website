@@ -10,6 +10,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/animate.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />  
+
 
     <!-- Popper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -65,10 +72,10 @@
         <div class="row">
             <div class="col-md">
               <div class="removeMargin" style="margin-top: 270px; margin-left: 350px;">
-                <h1 class="text-light" style="font-size: 5rem;">Courses Page </h1>
+                <h1 class="text-light wow animate__backInUp  animated" style="font-size: 5rem;">Courses Page </h1>
               </div>
             </div>
-            <div class="col-md">
+            <div class="col-md wow animate__backInUp  animated">
                 <img class="MyImg" style="width: 40%;" src="/assets/Images/Layer 2.png" alt="">
             </div>
         </div>
@@ -77,7 +84,7 @@
  <!-- end of landing with navbar  -->
  <!-- start of courses -->
  <section>
-    <div class="container mt-5">
+    <div class="container mt-5 wow animate__backInUp  animated">
         <div class="row">
             <div class="col-md mb-5">
                 <h1>
@@ -350,7 +357,7 @@
     </div>
  </section>
  <!-- start of footer -->
-<footer class="mt-5"  >
+<footer class="mt-5 wow animate__backInUp  animated"  >
     <div class="container " >
       <div class="row" >
         <div class="col-md" style="margin-top: 150px;">
@@ -424,5 +431,11 @@
   
   </footer>
   <!-- end of footer -->
+  <script src="/assets/js/wow.js"></script>
+  <script src="/assets/js/wow.min.js"></script>
+
+  <script>
+    new WOW().init();
+  </script>
 </body>
 </html>

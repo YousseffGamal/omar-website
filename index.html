@@ -10,8 +10,12 @@
     <link rel="stylesheet" href="./assets/css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/vendor/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/animate.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <!-- Popper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     
@@ -154,14 +158,14 @@
       <div class="col-auto">
         <div class="text-center">
           <div class="border-bottom border-danger d-inline-block" style="width: 200px; border-width: 5px;">
-            <h1 class="text-white" style="white-space: nowrap; position: relative; right: 70px; ">About Omar Ahmed</h1>
+            <h1 class="text-white wow animate__backInUp  animated" style="white-space: nowrap; position: relative; right: 70px; ">About Omar Ahmed</h1>
           </div>
         </div>
       </div>
     </div>
     
     
-    <div class="row mt-5">
+    <div class="row mt-5 wow animate__backInUp  animated">
       <div class="col-md">
         <p class="text-white" style="margin-top: 80px; font-size: 18px;opacity: 0.8;">
         Omar Ahmed is a distinguished figgure in the real <br>
@@ -223,7 +227,7 @@
  </section>
   <!-- end of about us -->
 <!-- start of help u section -->
-<section class="help">
+<section class="help wow animate__backInUp  animated" >
   <div class="container mt-5">
     <div class="row">
       <div class="col-md"> 
@@ -258,7 +262,7 @@
 <!-- end of help u section -->
 <!-- start of case study -->
 <h2 class="text-center text-white mt-5">CASE STUDY</h2>
-<section class="mt-5">
+<section class="mt-5 wow animate__backInUp  animated">
   
   <div class="container case">
   
@@ -282,7 +286,7 @@
 </section>
 <!-- end of case study -->
 <!-- start of products -->
-<section class="mt-5 ">
+<section class="mt-5 wow animate__backInUp  animated">
   <div class="container products">
     <div class="row">
       <div class="col-md ">
@@ -408,7 +412,7 @@
 </section>
 <!-- end of products -->
 <!-- start of courses  -->
-<section style="margin-top: 200px;">
+<section style="margin-top: 200px;" class="wow animate__backInUp  animated">
   <div class="container coruses">
     <div class="row">
       <h1 style="margin-top: 100px; margin-bottom: 100px;" class="text-center text-white font-weight-bold">Our Course</h1>
@@ -467,7 +471,7 @@
 <!-- end of courses  -->
 <!-- start of blog -->
 <section>
-<div class="container blog">
+<div class="container blog wow animate__backInUp  animated">
   <div class="row">
     <div  class="col-md pt-5">
       <img style="position: relative; left: 14px;" class="image-with-opacity-border" src="./assets/Images/blog/1.png" alt="">
@@ -526,7 +530,7 @@
 <!-- end  of blog -->
 <!-- start of slider section -->
 <section>
-<div class="container" style="margin-top: 100px;">
+<div class="container wow animate__backInUp  animated" style="margin-top: 100px;">
   <div class="row" >
     <div class="col-md">
       <h1 style="text-align: center; color: white;font-weight: bold;">
@@ -736,11 +740,17 @@
 <script src="assets/js/vendor/tilt.js"></script>
 <script src="assets/js/vendor/green-audio-player.min.js"></script>
 <script src="assets/js/vendor/jquery.nav.js"></script>
+<script src="./assets/js/wow.js"></script>
+<script src="./assets/js/wow.min.js"></script>
+
 <script>
   var swiper = new Swiper(".mySwiper", {
     effect: "cards",
     grabCursor: true,
   });
+</script>
+<script>
+  new WOW().init();
 </script>
 </body>
 </html>

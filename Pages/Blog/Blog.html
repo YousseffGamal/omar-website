@@ -15,6 +15,13 @@
     
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="/assets/css/animate.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />  
 </head>
 <body>
        <!-- start of landing with navbar  -->
@@ -60,7 +67,7 @@
               </form>
             </div>
           </nav>
-        <div class="row">
+        <div class="row wow animate__backInUp  animated">
             <div class="col-md">
               <div class="removeMargin" style="margin-top: 270px; margin-left: 350px;">
                 <h1 class="text-light" style="font-size: 5rem;">Omar's Blog </h1>
@@ -76,7 +83,7 @@
  <!-- end of landing with navbar  -->
  <!-- start of about us section -->
  <section style="margin-top: 100px;">
-    <div class="container ">
+    <div class="container wow animate__backInUp  animated ">
         <div class="row">
             <div class="col-md" style="background-color: white; position: relative;">
                 <div class="d-flex remFlex">
@@ -207,7 +214,7 @@
 
 <!-- start of footer -->
 <footer  >
-    <div class="container " >
+    <div class="container wow animate__backInUp  animated " >
       <div class="row" >
         <div class="col-md" style="margin-top: 150px;">
       <h3 class="text-light" style="font-weight: bold;" >
@@ -280,5 +287,11 @@
   
   </footer>
   <!-- end of footer -->
+  <script src="/assets/js/wow.js"></script>
+  <script src="/assets/js/wow.min.js"></script>
+  
+  <script>
+    new WOW().init();
+  </script>
 </body>
 </html>

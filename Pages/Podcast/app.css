@@ -157,3 +157,7 @@ hr {
     color: #991b1e !important;
 
 }
+:root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }

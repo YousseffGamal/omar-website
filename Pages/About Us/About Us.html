@@ -18,6 +18,13 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="/assets/css/animate.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />  
   </head>
   <body>
     <!-- start of landing with navbar  -->
@@ -91,7 +98,7 @@
           </form>
         </div>
       </nav>
-      <div class="row">
+      <div class="row wow animate__backInUp  animated">
         <div class="col-md">
           <div
             class="removeMargin"
@@ -126,7 +133,7 @@
     <!-- end of landing with navbar  -->
     <!-- start of about us section -->
     <section style="margin-top: 100px">
-      <div class="container aboutUs">
+      <div class="container aboutUs wow animate__backInUp  animated">
         <div class="row">
           <div class="col-md">
             <img
@@ -207,7 +214,7 @@
     </section>
     <!-- start of vision -->
     <section>
-      <div class="container mt-3">
+      <div class="container mt-3 wow animate__backInUp  animated">
         <div class="row">
           <div class="col-md">
             <div
@@ -269,7 +276,7 @@
 
     <!-- end of about us section -->
     <section>
-      <div class="container py-2 mt-4 mb-4 time">
+      <div class="container py-2 mt-4 mb-4 time wow animate__backInUp  animated">
         <div class="row">
           <div class="col-md">
             <h1 class="text-center mt-5 mb-2">
@@ -557,7 +564,7 @@
   
     <!-- start of footer -->
     <footer>
-      <div class="container">
+      <div class="container wow animate__backInUp  animated">
         <div class="row">
           <div class="col-md" style="margin-top: 150px">
             <h3 class="text-light" style="font-weight: bold">About is</h3>
@@ -635,5 +642,12 @@
       </div>
     </footer>
     <!-- end of footer -->
+    <script src="/assets/js/wow.js"></script>
+    <script src="/assets/js/wow.min.js"></script>
+    
+    <script>
+      new WOW().init();
+    </script>
+  </body>
   </body>
 </html>

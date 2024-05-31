@@ -969,3 +969,7 @@ color: #991b1e !important;
       transform: translateX(0);
     }
   }
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
