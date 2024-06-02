@@ -887,7 +887,10 @@ footer{
         flex-direction: column !important;
     }
     .www{
-        width: 50% !important;
+        width: 95% !important;
+    }
+    .dd{
+        width: 90px;
     }
     .slid{
         width: 100%;
