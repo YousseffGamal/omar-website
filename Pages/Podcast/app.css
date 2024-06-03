@@ -7,7 +7,7 @@ body{
     background: 
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Dark overlay */
 
-    url("/assets/Images/tech-guru-reviewing-in-studio-in-front-of-camera.jpg");    
+    url("/assets/Images/tech-guru-reviewing-in-studio-in-front-of-camera.webp");    
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -100,7 +100,7 @@ border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* optional border for better
     }
 }
 footer{
-    background-image: url("/assets/Images/Asset-11.jpg");
+    background-image: url("/assets/Images/Asset-11.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -124,13 +124,13 @@ hr {
     height: 30px;
     background-color: transparent;
     border: none;
-    background-image: url('/assets/Images/—Pngtree—black\ vector\ play\ button\ icon_4231897.png'); /* Replace with your play icon */
+    background-image: url('/assets/Images/—Pngtree—black\ vector\ play\ button\ icon_4231897.webp'); /* Replace with your play icon */
     background-size: cover;
     cursor: pointer;
 }
 
 #play-pause.playing {
-    background-image: url('pause-icon.png'); /* Replace with your pause icon */
+    background-image: url('pause-icon.webp'); /* Replace with your pause icon */
 }
 
 .progress-container {

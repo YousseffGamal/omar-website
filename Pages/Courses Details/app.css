@@ -8,7 +8,7 @@ img{
 .landing{
     background: 
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Dark overlay */
-    url("/assets/Images/Courses\ bg.jpg");    background-position: center;
+    url("/assets/Images/Courses\ bg.webp");    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -47,7 +47,7 @@ border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* optional border for better
 .formm{
     background: 
     linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), /* Dark overlay */
-    url("/assets/Images/career.jpeg");    background-position: center;
+    url("/assets/Images/career.webp");    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -97,7 +97,7 @@ border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* optional border for better
      }
  }
  footer{
-    background-image: url("/assets/Images/Asset-11.jpg");
+    background-image: url("/assets/Images/Asset-11.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
